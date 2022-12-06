@@ -2,6 +2,16 @@
 
 DeepLink 是可以直接用網址呼叫 App 的方式之一，以前有提到可以利用 [Get Android Intent Data for Unity][wenrongIntent] 這邊文章提到的方式，呼叫 App，不過這只限定 Android，iOS 則還是需要用 Deeplink 的方式呼叫。主要是當時 Unity 版本並不支援 DeepLink，所以只能自己寫原生的，才會有之前的[這篇][wenrongIntent]文章，更重要的是，使用之前的呼叫方式是需要某些權限，但目前 Google 也把這些權限關閉，無法正常上架需要自己寫信去解釋才會願意讓你正常上架。所以建議是棄用這種方法改用 Deeplink。
 
+## 詳細資料
+
+* [Unity Deep Link][unitydl]
+
+* [Android Deep Link][dl_android]
+
+* [iOS Deep Link][dl_ios]
+
+建議是一定要把 [Unity Deep Link][unitydl] 看完，才會知道怎麼設定，其餘兩邊則是原生地設定方式，可以參考。
+
 ## 使用方式
 
 [Unity Deep link Doc][unitydl]
@@ -46,6 +56,7 @@ ________________________________________________________________________________
 
 [unitydl]:https://docs.unity3d.com/Manual/deep-linking.html
 [unitydl_android]:https://docs.unity3d.com/Manual/deep-linking-android.html
-[dl_android]:https://developer.android.com/training/app-links/deep-linking
 [unitydl_ios]:https://docs.unity3d.com/Manual/deep-linking-ios.html
 [wenrongIntent]:https://wenrongdev.com/posts/get-android-intent-data-for-unity/
+[dl_android]:https://developer.android.com/training/app-links/deep-linking
+[dl_ios]:https://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content
